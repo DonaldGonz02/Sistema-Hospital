@@ -35,5 +35,5 @@ public class Paciente extends Persona {
                 "Paciente",
                 JOptionPane.INFORMATION_MESSAGE);
     }
-    
+   
 }
