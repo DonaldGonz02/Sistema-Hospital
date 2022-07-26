@@ -32,7 +32,7 @@ public class Paciente extends Persona {
                 "\nTipo de Sangre: "+TipoSangre+ 
                 "\nPadecimiento: " +Padecimiento+
                 "\nAlergia: " +Alergia,        
-                "Estudiante",
+                "Paciente",
                 JOptionPane.INFORMATION_MESSAGE);
     }
     
