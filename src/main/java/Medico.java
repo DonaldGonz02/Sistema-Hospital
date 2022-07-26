@@ -24,7 +24,7 @@ public class Medico extends Persona {
     }
     
     //metodo
-    public void AddPaciente(){
+    public void AddMedico(){
         JOptionPane.showMessageDialog(null,
                 "Codigo:" + code+ 
                 "\nNombre: " + name +

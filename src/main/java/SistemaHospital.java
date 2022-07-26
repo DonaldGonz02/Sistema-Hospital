@@ -15,11 +15,15 @@ public class SistemaHospital {
     public static void main(String[] args) {
         
         // Datos estaticos
-         //code, name,age,city, contact, TipoSangre,Padecimeinto,Alergia
+         //PACIENTE:code, name,age,city, contact, TipoSangre,Padecimeinto,Alergia
         
-        Paciente e1= new Paciente(001, "Raquel", 25, "Sanarate", "55555555", "A+", "Resfriafo", "Mani");
+        Paciente e1= new Paciente(001, "Raquel", 25, "Sanarate", "55555555", "A+", "Resfriado", "Mani");
         
         e1.AddPaciente();
+        //MEDICO: code, name, age, city, contact, especialidad, hospital, area
+        Medico e2= new Medico(001, "Donald", 24, "Sanarate", "50505050", "Patologia", "XD", "Patologia");
+        
+        e2.AddMedico();
         
     }
     
